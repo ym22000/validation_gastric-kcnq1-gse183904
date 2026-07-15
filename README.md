@@ -96,9 +96,11 @@ One local cache object is not tracked: `outputs/objects/infercnv_GSE183904.rds`.
 
 ## Documentation
 
-- [Chronological pipeline](docs/PIPELINE_CHRONOLOGY.md)
-- [Critical assessment](docs/PIPELINE_CRITIQUE.md)
-- [Results interpretation](docs/RESULTS_INTERPRETATION.md)
+The full analysis is documented in three short notes.
+
+- [Chronological pipeline](docs/PIPELINE_CHRONOLOGY.md): step-by-step description of the workflow, from the GEO matrices to the final KCN readout.
+- [Critical assessment](docs/PIPELINE_CRITIQUE.md): main strengths, limits and possible biases of the analysis.
+- [Results interpretation](docs/RESULTS_INTERPRETATION.md): biological interpretation of the final KCN results.
 
 ## References
 
