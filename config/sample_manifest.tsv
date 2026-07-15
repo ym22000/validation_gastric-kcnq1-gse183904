@@ -1,0 +1,41 @@
+sample_id	gsm	patient	tissue	lauren	analysis_scope	exclusion_reason
+sample1	GSM5573466	NGCII518	Primary_Normal	Mixed	FALSE	Mixed Lauren type
+sample2	GSM5573467	NGCII518	Primary_Tumor	Mixed	FALSE	Mixed Lauren type
+sample3	GSM5573468	NGCII519	Primary_Tumor	Diffuse	TRUE	Included
+sample4	GSM5573469	NGCII520	Primary_Normal	Diffuse	TRUE	Matched normal reference
+sample5	GSM5573470	NGCII520	Primary_Tumor	Diffuse	TRUE	Included
+sample6	GSM5573471	NGCII521	Primary_Normal	Intestinal	TRUE	Matched normal reference
+sample7	GSM5573472	NGCII521	Primary_Tumor	Intestinal	TRUE	Included
+sample8	GSM5573473	NGCII524	Primary_Tumor	Not_available	FALSE	Lauren type unavailable
+sample9	GSM5573474	NGCII525	Primary_Normal	Mixed	FALSE	Mixed Lauren type
+sample10	GSM5573475	NGCII525	Primary_Tumor	Mixed	FALSE	Mixed Lauren type
+sample11	GSM5573476	NGCII527	Primary_Normal	Metastatic	FALSE	Metastatic clinical category
+sample12	GSM5573477	NGCII527	Primary_Tumor	Metastatic	FALSE	Metastatic clinical category
+sample13	GSM5573478	NGCII529	Primary_Tumor	Intestinal	TRUE	Included
+sample14	GSM5573479	NGCII502	Primary_Tumor	Intestinal	TRUE	Included
+sample15	GSM5573480	NGCII511	Primary_Tumor	Intestinal	TRUE	Included
+sample16	GSM5573481	NGCII499	Primary_Tumor	Intestinal	TRUE	Included
+sample17	GSM5573482	NGCII509	Primary_Tumor	Intestinal	TRUE	Included
+sample18	GSM5573483	NGCII498	Primary_Tumor	Intestinal	TRUE	Included
+sample19	GSM5573484	NGCII011	Peritoneal_Tumor	Not_available	FALSE	Peritoneal sample
+sample20	GSM5573485	NGCII015	Peritoneal_Tumor	Not_available	FALSE	Peritoneal sample
+sample21	GSM5573486	NGCII513	Primary_Normal	Intestinal	TRUE	Matched normal reference
+sample22	GSM5573487	NGCII513	Primary_Tumor	Intestinal	TRUE	Included
+sample23	GSM5573488	NGCII514	Primary_Normal	Diffuse	TRUE	Matched normal reference
+sample24	GSM5573489	NGCII514	Primary_Tumor	Diffuse	TRUE	Included
+sample25	GSM5573490	NGCII512	Primary_Normal	Intestinal	TRUE	Matched normal reference
+sample26	GSM5573491	NGCII512	Primary_Tumor	Intestinal	TRUE	Included
+sample27	GSM5573492	NGCII510	Primary_Tumor	Diffuse	TRUE	Included
+sample28	GSM5573493	NGCII531	Primary_Tumor	Diffuse	TRUE	Included
+sample29	GSM5573494	NGCII522	Primary_Tumor	Intestinal	TRUE	Included
+sample30	GSM5573495	NGCII533	Primary_Tumor	Mixed	FALSE	Mixed Lauren type
+sample31	GSM5573496	NGCII536	Primary_Normal	Not_available	FALSE	No matched eligible tumor
+sample32	GSM5573497	NGCII539	Primary_Tumor	Intestinal	TRUE	Included
+sample33	GSM5573498	NGCII540	Primary_Tumor	Intestinal	TRUE	Included
+sample34	GSM5573499	NGCII541	Primary_Tumor	Intestinal	TRUE	Included
+sample35	GSM5573500	NGCII538	Primary_Normal	Metastatic	FALSE	Metastatic clinical category
+sample36	GSM5573501	NGCII538	Primary_Tumor	Metastatic	FALSE	Metastatic clinical category
+sample37	GSM5573502	NGCII538	Peritoneal_Normal	Metastatic	FALSE	Peritoneal sample
+sample38	GSM5573503	NGCII538	Peritoneal_Tumor	Metastatic	FALSE	Peritoneal sample
+sample39	GSM5573504	NGCII543	Primary_Tumor	Intestinal	TRUE	Included
+sample40	GSM5573505	NGCII545	Primary_Tumor	Diffuse	TRUE	Included

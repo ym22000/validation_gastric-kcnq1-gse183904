@@ -1,0 +1,2 @@
+validation	test	diffuse_patients	intestinal_patients	median_fraction_diffuse_patients	median_fraction_intestinal_patients	p_value
+Diffuse/EMT-like fraction by patient Lauren type	Wilcoxon rank-sum test	6	14	0.669653524492234	0.289100886256142	0.043308142810792

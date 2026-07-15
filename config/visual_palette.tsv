@@ -1,0 +1,10 @@
+element	color
+Intestinal-like	#2b9348
+Diffuse/EMT-like	#ff5714
+Indeterminate	#b8a9fa
+KCN_expressed	#6247aa
+KCN_not_expressed	#ffd500
+Tumor_program	#ffa552
+CNV_rescue	#74b9ff
+Normal_reference	#88d498
+Not_selected	#b8a9fa

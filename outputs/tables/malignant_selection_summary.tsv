@@ -1,0 +1,5 @@
+tissue	selection_class	cells	median_tumor_delta	median_cnv_score
+Primary_Normal	Not selected	5029	-0.305623636121448	0.0310823107543183
+Primary_Tumor	Added by inferCNV	2785	0.0251439553573847	0.0637094139805888
+Primary_Tumor	Not selected	12488	-0.473947473795611	0.040408360760497
+Primary_Tumor	Tumor program	8543	1.70773824423254	0.0452193646700365

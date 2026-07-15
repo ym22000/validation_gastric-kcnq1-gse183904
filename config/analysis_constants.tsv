@@ -1,0 +1,20 @@
+parameter	value	purpose
+random_seed	12345	Reproducible PCA clustering t-SNE and permutations
+author_min_features	500	GEO author QC lower feature threshold
+author_max_features	6000	GEO author QC upper feature threshold
+author_max_mito_percent	20	GEO author QC mitochondrial threshold
+epithelial_min_core_strict	3	Broad epithelial gate
+epithelial_min_core_relaxed	2	Plastic epithelial rescue gate
+epithelial_competitor_factor	0.65	Relaxed gate relative to non-epithelial scores
+normal_reference_quantile	0.95	Specificity threshold for malignant program and inferCNV
+infercnv_reference_cells_per_patient	150	Balance normal reference patients
+infercnv_min_gene_cells	20	Remove uninformative genes before inferCNV
+ucell_max_rank	1500	Rank depth for signature scoring
+pca_components	30	PCA dimensions computed
+neighbor_components	20	PCA dimensions used for neighbors and t-SNE
+neighbors_k	30	Neighborhood size
+clustering_resolution	0.8	Seurat clustering resolution
+state_confidence_margin_sd	0.5	Avoid forced intestinal or diffuse/EMT labels
+immune_marker_threshold	2	Remove coherent immune contamination
+fisher_detection_test	two-sided	Compare expressing versus non-expressing cells between final states
+spearman_permutations	1000	Within-patient stratified permutation count

@@ -1,0 +1,1684 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/vh0vr9",
+    "id": "vh0vr9",
+    "slide": 1,
+    "layoutId": "3118606b-84e4-4d1f-8e9b-bc7ce6e4fe5b",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "c38620e6-5c3e-4041-b9e6-4ab94379e1aa",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3118606b-84e4-4d1f-8e9b-bc7ce6e4fe5b",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "c38620e6-5c3e-4041-b9e6-4ab94379e1aa",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "c38620e6-5c3e-4041-b9e6-4ab94379e1aa",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lojyl872",
+      "id": "1",
+      "bbox": [
+        86,
+        42,
+        760,
+        46
+      ],
+      "geometry": "rect",
+      "text": "Dataset4 | GSE183904 gastric cancer",
+      "textPreview": "Dataset4 | GSE183904 gastric cancer",
+      "resolvedFontSize": 34,
+      "resolvedTextStyle": {
+        "fontSize": 34,
+        "typeface": "+mn-lt",
+        "color": "#1F2933",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dataset4 | GSE183904 gastric cancer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dataset4 | GSE183904 gastric cancer",
+          "resolvedTextStyle": {
+            "fontSize": 34,
+            "color": "#1F2933",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dataset4 | GSE183904 gastric cancer",
+              "fontSize": 34,
+              "color": "#1F2933",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1sfqt8b",
+      "id": "2",
+      "bbox": [
+        88,
+        92,
+        1260,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Question: are KCNQ1, KCNE2 and KCNE3 linked to intestinal-like or diffuse/EMT-like malignant epithelial states?",
+      "textPreview": "Question: are KCNQ1, KCNE2 and KCNE3 linked to intestinal-like or diffuse/EMT-like malignant epithelial states?",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#4B5563",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Question: are KCNQ1, KCNE2 and KCNE3 linked to intestinal-like or diffuse/EMT-like malignant epithelial states?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Question: are KCNQ1, KCNE2 and KCNE3 linked to intestinal-like or diffuse/EMT-like malignant epithelial states?",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#4B5563",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Question: are KCNQ1, KCNE2 and KCNE3 linked to intestinal-like or diffuse/EMT-like malignant epithelial states?",
+              "fontSize": 20,
+              "color": "#4B5563",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z21gjypw",
+      "id": "3",
+      "bbox": [
+        90,
+        155,
+        410,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8BD771",
+      "lineColor": "#6FBF59",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czaxo3q5",
+      "id": "4",
+      "bbox": [
+        114,
+        173,
+        362,
+        32
+      ],
+      "geometry": "rect",
+      "text": "1. Input data",
+      "textPreview": "1. Input data",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#102A12",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Input data"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. Input data",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#102A12",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. Input data",
+              "fontSize": 23,
+              "color": "#102A12",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0jyho7q",
+      "id": "5",
+      "bbox": [
+        114,
+        213,
+        362,
+        84
+      ],
+      "geometry": "rect",
+      "text": "GSE183904_RAW.tar\nRaw UMI: genes x cells\nGEO import: 113,470 cells\n20 primary tumors + 5 matched normals",
+      "textPreview": "GSE183904_RAW.tar | Raw UMI: genes x cells | GEO import: 113,470 cells | 20 primary tumors + 5 matched normals",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#122315",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "GSE183904_RAW.tar"
+          },
+          {
+            "index": 2,
+            "text": "Raw UMI: genes x cells"
+          },
+          {
+            "index": 3,
+            "text": "GEO import: 113,470 cells"
+          },
+          {
+            "index": 4,
+            "text": "20 primary tumors + 5 matched normals"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "GSE183904_RAW.tar",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GSE183904_RAW.tar",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Raw UMI: genes x cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw UMI: genes x cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "GEO import: 113,470 cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "GEO import: 113,470 cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "20 primary tumors + 5 matched normals",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "20 primary tumors + 5 matched normals",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ax8fmt8f",
+      "id": "6",
+      "bbox": [
+        520,
+        202,
+        70,
+        58
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#156082",
+      "lineColor": "#0B2636",
+      "lineWidth": 2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/byhgfypk",
+      "id": "7",
+      "bbox": [
+        610,
+        155,
+        430,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8BD771",
+      "lineColor": "#6FBF59",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wvuh0nqp",
+      "id": "8",
+      "bbox": [
+        634,
+        173,
+        382,
+        32
+      ],
+      "geometry": "rect",
+      "text": "2. Epithelial candidates",
+      "textPreview": "2. Epithelial candidates",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#102A12",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2. Epithelial candidates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2. Epithelial candidates",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#102A12",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2. Epithelial candidates",
+              "fontSize": 23,
+              "color": "#102A12",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hw3yts7u",
+      "id": "9",
+      "bbox": [
+        634,
+        213,
+        382,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Kept cells with epithelial signal\nEPCAM, KRTs, CDH1, MUC1\n28,845 candidate epithelial cells",
+      "textPreview": "Kept cells with epithelial signal | EPCAM, KRTs, CDH1, MUC1 | 28,845 candidate epithelial cells",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#122315",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Kept cells with epithelial signal"
+          },
+          {
+            "index": 2,
+            "text": "EPCAM, KRTs, CDH1, MUC1"
+          },
+          {
+            "index": 3,
+            "text": "28,845 candidate epithelial cells"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Kept cells with epithelial signal",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Kept cells with epithelial signal",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "EPCAM, KRTs, CDH1, MUC1",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EPCAM, KRTs, CDH1, MUC1",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "28,845 candidate epithelial cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "28,845 candidate epithelial cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9sn6d0fe",
+      "id": "10",
+      "bbox": [
+        1060,
+        202,
+        70,
+        58
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#156082",
+      "lineColor": "#0B2636",
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8repkvyt",
+      "id": "11",
+      "bbox": [
+        1150,
+        155,
+        360,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8BD771",
+      "lineColor": "#6FBF59",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7q5obqx8",
+      "id": "12",
+      "bbox": [
+        1174,
+        173,
+        312,
+        32
+      ],
+      "geometry": "rect",
+      "text": "3. Tumor map",
+      "textPreview": "3. Tumor map",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#102A12",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3. Tumor map"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3. Tumor map",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#102A12",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3. Tumor map",
+              "fontSize": 23,
+              "color": "#102A12",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mpw7ilgn",
+      "id": "13",
+      "bbox": [
+        1174,
+        213,
+        312,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Seurat: normalize, HVGs, PCA\n30 PCs; t-SNE on PCs 1-20\nResolution 0.8; seed 12345",
+      "textPreview": "Seurat: normalize, HVGs, PCA | 30 PCs; t-SNE on PCs 1-20 | Resolution 0.8; seed 12345",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#122315",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Seurat: normalize, HVGs, PCA"
+          },
+          {
+            "index": 2,
+            "text": "30 PCs; t-SNE on PCs 1-20"
+          },
+          {
+            "index": 3,
+            "text": "Resolution 0.8; seed 12345"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Seurat: normalize, HVGs, PCA",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Seurat: normalize, HVGs, PCA",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "30 PCs; t-SNE on PCs 1-20",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "30 PCs; t-SNE on PCs 1-20",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Resolution 0.8; seed 12345",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Resolution 0.8; seed 12345",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lon69gf2",
+      "id": "14",
+      "bbox": [
+        770,
+        328,
+        62,
+        64
+      ],
+      "geometry": "downArrow",
+      "fillColor": "#156082",
+      "lineColor": "#0B2636",
+      "lineWidth": 2
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3upgbyx",
+      "id": "15",
+      "bbox": [
+        220,
+        410,
+        520,
+        160
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8BD771",
+      "lineColor": "#6FBF59",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2lo7qxc",
+      "id": "16",
+      "bbox": [
+        244,
+        428,
+        472,
+        32
+      ],
+      "geometry": "rect",
+      "text": "4. Malignant epithelial selection",
+      "textPreview": "4. Malignant epithelial selection",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#102A12",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4. Malignant epithelial selection"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4. Malignant epithelial selection",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#102A12",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4. Malignant epithelial selection",
+              "fontSize": 23,
+              "color": "#102A12",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y1c7elgr",
+      "id": "17",
+      "bbox": [
+        244,
+        468,
+        472,
+        94
+      ],
+      "geometry": "rect",
+      "text": "Tumor program + inferCNV support\nReference: 750 normal epithelial cells\n8,543 tumor-program cells\n+ 2,785 CNV-supported cells",
+      "textPreview": "Tumor program + inferCNV support | Reference: 750 normal epithelial cells | 8,543 tumor-program cells | + 2,785 CNV-supported cells",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#122315",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tumor program + inferCNV support"
+          },
+          {
+            "index": 2,
+            "text": "Reference: 750 normal epithelial cells"
+          },
+          {
+            "index": 3,
+            "text": "8,543 tumor-program cells"
+          },
+          {
+            "index": 4,
+            "text": "+ 2,785 CNV-supported cells"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tumor program + inferCNV support",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tumor program + inferCNV support",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Reference: 750 normal epithelial cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reference: 750 normal epithelial cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "8,543 tumor-program cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8,543 tumor-program cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "+ 2,785 CNV-supported cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "+ 2,785 CNV-supported cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5k7qlkfm",
+      "id": "18",
+      "bbox": [
+        765,
+        458,
+        70,
+        58
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#156082",
+      "lineColor": "#0B2636",
+      "lineWidth": 2
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4jypsfe1",
+      "id": "19",
+      "bbox": [
+        860,
+        410,
+        430,
+        160
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8BD771",
+      "lineColor": "#6FBF59",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4369ojmd",
+      "id": "20",
+      "bbox": [
+        884,
+        428,
+        382,
+        32
+      ],
+      "geometry": "rect",
+      "text": "5. Cleaning",
+      "textPreview": "5. Cleaning",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#102A12",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5. Cleaning"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5. Cleaning",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#102A12",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Cleaning",
+              "fontSize": 23,
+              "color": "#102A12",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4fqhoni",
+      "id": "21",
+      "bbox": [
+        884,
+        468,
+        382,
+        94
+      ],
+      "geometry": "rect",
+      "text": "Removed coherent immune-contaminant profiles\n11,328 malignant candidates\n8,901 cleaned malignant cells",
+      "textPreview": "Removed coherent immune-contaminant profiles | 11,328 malignant candidates | 8,901 cleaned malignant cells",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#122315",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Removed coherent immune-contaminant profiles"
+          },
+          {
+            "index": 2,
+            "text": "11,328 malignant candidates"
+          },
+          {
+            "index": 3,
+            "text": "8,901 cleaned malignant cells"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Removed coherent immune-contaminant profiles",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Removed coherent immune-contaminant profiles",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "11,328 malignant candidates",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11,328 malignant candidates",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "8,901 cleaned malignant cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8,901 cleaned malignant cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21orm947",
+      "id": "22",
+      "bbox": [
+        770,
+        592,
+        62,
+        64
+      ],
+      "geometry": "downArrow",
+      "fillColor": "#156082",
+      "lineColor": "#0B2636",
+      "lineWidth": 2
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32x8fe5s",
+      "id": "23",
+      "bbox": [
+        220,
+        675,
+        520,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8BD771",
+      "lineColor": "#6FBF59",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gzm9kjm1",
+      "id": "24",
+      "bbox": [
+        244,
+        693,
+        472,
+        32
+      ],
+      "geometry": "rect",
+      "text": "6. Intestinal vs diffuse/EMT",
+      "textPreview": "6. Intestinal vs diffuse/EMT",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#102A12",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6. Intestinal vs diffuse/EMT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6. Intestinal vs diffuse/EMT",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#102A12",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6. Intestinal vs diffuse/EMT",
+              "fontSize": 23,
+              "color": "#102A12",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fqdonm",
+      "id": "25",
+      "bbox": [
+        244,
+        733,
+        472,
+        84
+      ],
+      "geometry": "rect",
+      "text": "UCell scores on cleaned malignant cells\nKCN genes removed from classifiers\n6,573 high-confidence cells\n4,170 intestinal-like | 2,403 diffuse/EMT-like",
+      "textPreview": "UCell scores on cleaned malignant cells | KCN genes removed from classifiers | 6,573 high-confidence cells | 4,170 intestinal-like | 2,40...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#122315",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "UCell scores on cleaned malignant cells"
+          },
+          {
+            "index": 2,
+            "text": "KCN genes removed from classifiers"
+          },
+          {
+            "index": 3,
+            "text": "6,573 high-confidence cells"
+          },
+          {
+            "index": 4,
+            "text": "4,170 intestinal-like | 2,403 diffuse/EMT-like"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "UCell scores on cleaned malignant cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "UCell scores on cleaned malignant cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "KCN genes removed from classifiers",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KCN genes removed from classifiers",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "6,573 high-confidence cells",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6,573 high-confidence cells",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "4,170 intestinal-like | 2,403 diffuse/EMT-like",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4,170 intestinal-like | 2,403 diffuse/EMT-like",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ux4ri94v",
+      "id": "26",
+      "bbox": [
+        765,
+        720,
+        70,
+        58
+      ],
+      "geometry": "rightArrow",
+      "fillColor": "#156082",
+      "lineColor": "#0B2636",
+      "lineWidth": 2
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyd8be5g",
+      "id": "27",
+      "bbox": [
+        860,
+        675,
+        430,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#8BD771",
+      "lineColor": "#6FBF59",
+      "lineWidth": 1.2
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svm9gzm5",
+      "id": "28",
+      "bbox": [
+        884,
+        693,
+        382,
+        32
+      ],
+      "geometry": "rect",
+      "text": "7. KCN readout",
+      "textPreview": "7. KCN readout",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#102A12",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "7. KCN readout"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "7. KCN readout",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#102A12",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "7. KCN readout",
+              "fontSize": 23,
+              "color": "#102A12",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twvq94nq",
+      "id": "29",
+      "bbox": [
+        884,
+        733,
+        382,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Raw-count detection + Fisher test\nSpearman with state scores\nKCNQ1 and KCNE3: intestinal-like\nKCNE2: same direction, weaker signal",
+      "textPreview": "Raw-count detection + Fisher test | Spearman with state scores | KCNQ1 and KCNE3: intestinal-like | KCNE2: same direction, weaker signal",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#122315",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw-count detection + Fisher test"
+          },
+          {
+            "index": 2,
+            "text": "Spearman with state scores"
+          },
+          {
+            "index": 3,
+            "text": "KCNQ1 and KCNE3: intestinal-like"
+          },
+          {
+            "index": 4,
+            "text": "KCNE2: same direction, weaker signal"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw-count detection + Fisher test",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw-count detection + Fisher test",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Spearman with state scores",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Spearman with state scores",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "KCNQ1 and KCNE3: intestinal-like",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KCNQ1 and KCNE3: intestinal-like",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "KCNE2: same direction, weaker signal",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#122315",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KCNE2: same direction, weaker signal",
+              "fontSize": 18,
+              "color": "#122315",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

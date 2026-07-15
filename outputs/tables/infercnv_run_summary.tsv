@@ -1,0 +1,5 @@
+parameter	value
+reference_cells	750
+tumor_observation_cells	23816
+genes_used	16629
+normal_reference_q95	0.0552532693697099

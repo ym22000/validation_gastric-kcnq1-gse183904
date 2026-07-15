@@ -1,0 +1,18 @@
+Hallmark GSEA on selected dataset4 final malignant-cell clusters
+
+Diffuse/EMT selected clusters: 2, 5, 17, 18, 21
+Intestinal selected clusters: 7, 11, 12, 8, 0, 15, 14
+Cells in selected diffuse/EMT clusters: 1705
+Cells in selected intestinal clusters: 2241
+
+Differential expression:
+Seurat FindMarkers, Wilcoxon rank-sum test, RNA log-normalized data.
+Positive avg_log2FC means higher in selected diffuse/EMT clusters.
+Negative avg_log2FC means higher in selected intestinal clusters.
+
+GSEA:
+Hallmark gene sets from msigdbr, Homo sapiens, collection H.
+fgsea minSize=15, maxSize=500, eps=0.
+Ranking metric = sign(avg_log2FC) * -log10(raw p-value capped at 1e-300).
+Positive NES means enrichment in selected diffuse/EMT clusters.
+Negative NES means enrichment in selected intestinal clusters.

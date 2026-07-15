@@ -1,0 +1,301 @@
+signature	gene	available	source	classifier_kcn_overlap
+Zhou_malignant	S100A2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	CAV1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	CAV2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	NDUFB9	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	SERPINA1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	DCBLD2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	MET	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	ITGB1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL36A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	VIM	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PCSK1N	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	HMGA1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL37A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS21	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS8	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	MAL2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS4X	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS16	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	S100A10	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	GAPDH	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	LY6D	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS7	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	TATDN1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS29	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PDCD5	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL39	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	NACA	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS15A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	EPCAM	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL5	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL7A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	AL365226.2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL15	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	TNFRSF12A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL38	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL12	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL37	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL35A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PSMA7	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	FAM3C	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS18	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS3A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL6	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL35	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	NME2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	SET	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	TNFRSF6B	FALSE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL34	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	MIR205HG	FALSE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	SNHG6	FALSE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	SF3B6	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	FLNA	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	ANXA5	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	STMN1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS27A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL23A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	LRATD2	FALSE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	ASPH	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	HSP90AB1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	CAMK2N1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	DKK1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RANBP1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	TXN	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	TMSB10	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS27	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL19	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	YBX1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL13	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL10A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS12	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	HSP90AA1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	CTAG2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL27	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	NAP1L1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RAN	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	S100A11	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL24	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL32	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS26	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL23	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	HSPD1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL30	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PHLDA1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PTGES3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	NUCKS1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PA2G4	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	KLK6	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PTMA	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PMEPA1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	ATP5MC2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	ENO1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	PEG10	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	LSM8	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	KTN1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	G0S2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL14	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL10	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL17	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	EIF3K	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL31	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	SUMO2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS24	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	NCL	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	LGALS3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	CLDN3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	SNRPE	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS19	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	CDKN2A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPS3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	AHNAK2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPL18	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	RPSA	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	KRT7	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	TUBB	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	WFDC2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	ANXA1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_malignant	TFF3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	GKN1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PGC	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MUC5AC	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	TFF1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IGLC1	FALSE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PSCA	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	GKN2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IGLC2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MUCL3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IGKC	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	TFF2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IGHA1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	JCHAIN	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PLCG2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CA2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MUC1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	LYZ	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	RNASE1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	S100P	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CLDN18	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MTRNR2L12	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CYSTM1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CTSE	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	VSIG2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ANXA10	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PIGR	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	BPIFB1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CAPN8	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MT1G	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	VSIG1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	FCGBP	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	AGR2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PSAPL1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	HPGD	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MTRNR2L8	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	AKR1B10	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SULT1C2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SYTL2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CYP3A5	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	BCAS1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	FOSB	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ATP2A3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MSMB	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	HLA-DRA	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CXCL17	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PHGR1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	KLF2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SPINK1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SAT1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SLC5A5	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CD74	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	OASL	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PLAC8	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SLC44A4	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	HLA-DRB1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ALDH3A1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ERN2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	LINC01133	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IFI27	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	JUNB	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	B2M	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	TMSB4X	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	AL158206.1	FALSE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	XIST	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SLC9A1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	HLA-A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	CYP2S1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	JUN	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SGSM3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	B4GALNT3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ELF3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ANKRD36C	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MTRNR2L1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IGLC3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	SGK1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	DUOX2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	DDX60	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	VILL	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IER2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	GALNT6	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ARL14	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	STARD10	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	GSN	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MICALL2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	AHNAK	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ABHD2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	AC020656.1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	NFKBIA	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	DUSP1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	LGALS3BP	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MLPH	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	EGR1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	EPS8L1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	GOLM1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IGHA2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	KLF4	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	GLUL	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	BIRC3	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MALAT1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	RASEF	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	KLF6	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	PLXNB2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	TENT5A	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	DNM2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	LINC00342	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	APOL1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	ABLIM1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	MX2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	AKAP13	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	AC020916.1	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	LCN2	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	IGHG4	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	RNF213	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Zhou_nonmalignant	GADD45B	TRUE	Zhou et al. 2023, Cellular and Molecular Life Sciences, Supplementary Table S4, DOI: 10.1007/s00018-023-04702-1	FALSE
+Intestinal	CDH17	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	REG4	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	MUC13	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	TFF3	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	CDX1	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	CDX2	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	KRT20	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	FABP1	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	LGALS4	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	PIGR	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	PHGR1	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	GPA33	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	MUC3A	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	ANPEP	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	AQP3	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	FCGBP	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	AGR2	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	CES2	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	ACSL5	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	DGAT1	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	TSPAN13	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+Intestinal	SMIM24	TRUE	Kim et al. 2022, npj Precision Oncology, GSE150290 intestinal tumor markers and gastric intestinal-lineage genes, DOI: 10.1038/s41698-022-00251-1	FALSE
+EMT_up	VIM	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	CDH2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	SNAI2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	TWIST2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	ZEB1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	ZEB2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	FN1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	WNT5A	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	NOTCH2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	AXL	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	CALD1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	TPM1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	TPM2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	SERPINE2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	NNMT	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	NUPR1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	TUSC3	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	PRKD1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	GAS6	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	THBS2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	CDH11	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	LOXL1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	RECK	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	DDR2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	EFEMP1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	CYP1B1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	LTBP2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	ROR2	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	PDGFRB	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	EDNRA	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	ROBO1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	MEF2C	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	IGFBP5	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	S100A4	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	TAGLN	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+EMT_up	EGR1	TRUE	Tanabe et al. 2014, International Journal of Oncology diffuse-type gastric cancer EMT signature, DOI: 10.3892/ijo.2014.2387; supported by Kim et al. 2022 GSE150290 diffuse/EMT controls	FALSE
+Epithelial_junction	EPCAM	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	CDH1	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	CLDN3	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	CLDN4	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	CLDN7	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	KRT8	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	KRT18	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	KRT19	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	MUC1	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
+Epithelial_junction	TACSTD2	TRUE	Canonical epithelial and junction markers used as EMT counter-score; motivated by Tanabe et al. 2014 and Kim et al. 2022	FALSE
