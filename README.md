@@ -47,6 +47,28 @@ KCNE2 follows the same direction, but the signal is weaker. It is less stable in
 
 These results support a transcriptomic association. They do not prove channel activity or causality.
 
+## Additional KCNQ1 Lauren-level check
+
+A second, simpler analysis was added for KCNQ1 only. It follows the Lauren diagnosis at the sample level and compares epithelial cells from:
+
+- primary normal gastric samples
+- intestinal-type primary tumors
+- diffuse-type primary tumors
+
+Because the groups have different cell numbers, the comparison was repeated after random downsampling to `3,368` cells per group. The main readout is detection rate, defined as the fraction of cells with raw KCNQ1 count `> 0`.
+
+This analysis supports the expected direction:
+
+```text
+Primary normal epithelial > intestinal-type tumor > diffuse-type tumor
+```
+
+Main outputs:
+
+- `outputs/final/kcnq1_lauren_downsampled/KCNQ1_lauren_downsampled_analysis.pdf`
+- `outputs/final/kcnq1_lauren_downsampled/KCNQ1_lauren_downsampled_analysis.xlsx`
+- `docs/KCNQ1_LAUREN_DOWNSAMPLING.md`
+
 ## Folder Structure
 
 ```text
@@ -72,6 +94,8 @@ gastric_dataset4/
 - `outputs/final/GSE183904_KCN_intestinal_diffuse_pipeline_registry.xlsx`
 - `outputs/final/tables/KCN_final_summary.tsv`
 - `outputs/final/tables/KCN_signature_correlations.tsv`
+- `outputs/final/kcnq1_lauren_downsampled/KCNQ1_lauren_downsampled_analysis.pdf`
+- `outputs/final/kcnq1_lauren_downsampled/KCNQ1_lauren_downsampled_analysis.xlsx`
 
 ## Reproduce
 
@@ -101,6 +125,7 @@ The full analysis is documented in three short notes.
 - [Chronological pipeline](docs/PIPELINE_CHRONOLOGY.md): step-by-step description of the workflow, from the GEO matrices to the final KCN readout.
 - [Critical assessment](docs/PIPELINE_CRITIQUE.md): main strengths, limits and possible biases of the analysis.
 - [Results interpretation](docs/RESULTS_INTERPRETATION.md): biological interpretation of the final KCN results.
+- [KCNQ1 Lauren downsampling](docs/KCNQ1_LAUREN_DOWNSAMPLING.md): additional KCNQ1 detection analysis using Lauren sample groups and random downsampling.
 
 ## References
 
