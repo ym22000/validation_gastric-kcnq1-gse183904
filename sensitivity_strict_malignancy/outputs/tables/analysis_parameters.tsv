@@ -1,0 +1,11 @@
+parameter	value
+input_object	../outputs/objects/final_intestinal_diffuse_emt_seurat.rds
+ambiguous_clusters	2,5,16,17,18
+epithelial_core	KRT8,KRT18,KRT19,EPCAM,CDH1,MUC1,TACSTD2
+fibroblast_core	COL1A1,COL1A2,COL3A1,DCN,LUM,FN1,SPARC
+mesothelial_core	CALB2,WT1,UPK3B,LRRN4,MSLN
+strict_min_epithelial_genes	2
+strict_max_mesothelial_genes	1
+marker_branch_min_epithelial_genes	4
+marker_branch_max_fibroblast_genes	2
+minimum_cells_per_state_for_patient_comparison	10

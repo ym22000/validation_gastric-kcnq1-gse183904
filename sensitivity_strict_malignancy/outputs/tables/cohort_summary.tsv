@@ -1,0 +1,7 @@
+cohort	state	cells	patients	cohort_total	state_fraction
+Original final	Intestinal-like	4170	20	6573	0.634413509812871
+Original final	Diffuse/EMT-like	2403	20	6573	0.365586490187129
+Cluster-screened	Intestinal-like	4167	20	4798	0.86848686952897
+Cluster-screened	Diffuse/EMT-like	631	20	4798	0.13151313047103
+Orthogonal strict	Intestinal-like	4000	20	4419	0.905182167911292
+Orthogonal strict	Diffuse/EMT-like	419	20	4419	0.0948178320887079

@@ -1,0 +1,37 @@
+cohort	gene	signature	method	rho	p_value	cells	patients	FDR
+Original final	KCNQ1	Intestinal	Pooled Spearman	0.241742086319057	4.86922153714105e-88	6573	20	9.73844307428209e-88
+Original final	KCNQ1	Intestinal	Within-patient ranks	0.10280944865733		6565	19	
+Original final	KCNQ1	Diffuse/EMT	Pooled Spearman	-0.373355557261823	1.65850766930616e-216	6573	20	9.95104601583697e-216
+Original final	KCNQ1	Diffuse/EMT	Within-patient ranks	-0.12663798662369		6565	19	
+Original final	KCNE2	Intestinal	Pooled Spearman	0.0396614557777953	0.00129914625098197	6573	20	0.00129914625098197
+Original final	KCNE2	Intestinal	Within-patient ranks	-0.00811183927042548		6565	19	
+Original final	KCNE2	Diffuse/EMT	Pooled Spearman	-0.142821815421767	2.68386691865335e-31	6573	20	3.22064030238402e-31
+Original final	KCNE2	Diffuse/EMT	Within-patient ranks	-0.0515291855762772		6565	19	
+Original final	KCNE3	Intestinal	Pooled Spearman	0.215747911347697	4.41969975284133e-70	6573	20	6.62954962926199e-70
+Original final	KCNE3	Intestinal	Within-patient ranks	0.144056574127286		6565	19	
+Original final	KCNE3	Diffuse/EMT	Pooled Spearman	-0.311600989766147	5.76234005001252e-148	6573	20	1.72870201500375e-147
+Original final	KCNE3	Diffuse/EMT	Within-patient ranks	-0.148437711571662		6565	19	
+Cluster-screened	KCNQ1	Intestinal	Pooled Spearman	0.0595703649834982	3.64522315902501e-05	4798	20	4.5045958594643e-05
+Cluster-screened	KCNQ1	Intestinal	Within-patient ranks	0.0777135370644752		4756	17	
+Cluster-screened	KCNQ1	Diffuse/EMT	Pooled Spearman	-0.279863258211728	4.70776629422656e-87	4798	20	2.82465977653594e-86
+Cluster-screened	KCNQ1	Diffuse/EMT	Within-patient ranks	-0.140635246883282		4756	17	
+Cluster-screened	KCNE2	Intestinal	Pooled Spearman	-0.0594730590659756	3.75382988288691e-05	4798	20	4.5045958594643e-05
+Cluster-screened	KCNE2	Intestinal	Within-patient ranks	-0.0177219822435398		4756	17	
+Cluster-screened	KCNE2	Diffuse/EMT	Pooled Spearman	-0.104109888388925	4.85795379074898e-13	4798	20	9.71590758149796e-13
+Cluster-screened	KCNE2	Diffuse/EMT	Within-patient ranks	-0.0823483862874231		4756	17	
+Cluster-screened	KCNE3	Intestinal	Pooled Spearman	0.0497096026906131	0.000572122958134946	4798	20	0.000572122958134946
+Cluster-screened	KCNE3	Intestinal	Within-patient ranks	0.086080845318194		4756	17	
+Cluster-screened	KCNE3	Diffuse/EMT	Pooled Spearman	-0.2121799054772	5.7386317192744e-50	4798	20	1.72158951578232e-49
+Cluster-screened	KCNE3	Diffuse/EMT	Within-patient ranks	-0.138594004233604		4756	17	
+Orthogonal strict	KCNQ1	Intestinal	Pooled Spearman	0.0349288435402449	0.0202347659556292	4419	20	0.024281719146755
+Orthogonal strict	KCNQ1	Intestinal	Within-patient ranks	0.0634815583752467		4330	14	
+Orthogonal strict	KCNQ1	Diffuse/EMT	Pooled Spearman	-0.268076011917489	1.31619198132696e-73	4419	20	7.89715188796174e-73
+Orthogonal strict	KCNQ1	Diffuse/EMT	Within-patient ranks	-0.122497353368512		4330	14	
+Orthogonal strict	KCNE2	Intestinal	Pooled Spearman	-0.0623221633942666	3.38690130613898e-05	4419	20	5.08035195920848e-05
+Orthogonal strict	KCNE2	Intestinal	Within-patient ranks	-0.023682746944825		4330	14	
+Orthogonal strict	KCNE2	Diffuse/EMT	Pooled Spearman	-0.108463751037005	4.84828497707084e-13	4419	20	9.69656995414167e-13
+Orthogonal strict	KCNE2	Diffuse/EMT	Within-patient ranks	-0.0716188288416637		4330	14	
+Orthogonal strict	KCNE3	Intestinal	Pooled Spearman	0.0266205120444801	0.0768227527018862	4419	20	0.0768227527018862
+Orthogonal strict	KCNE3	Intestinal	Within-patient ranks	0.0736131473871646		4330	14	
+Orthogonal strict	KCNE3	Diffuse/EMT	Pooled Spearman	-0.195371373402719	2.87549229802659e-39	4419	20	8.62647689407978e-39
+Orthogonal strict	KCNE3	Diffuse/EMT	Within-patient ranks	-0.123720467893824		4330	14	
