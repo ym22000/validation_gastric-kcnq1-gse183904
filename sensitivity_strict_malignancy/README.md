@@ -47,4 +47,6 @@ The script reads `../outputs/objects/final_intestinal_diffuse_emt_seurat.rds`. I
 
 Main figure: `outputs/figures/GSE183904_KCN_malignancy_sensitivity.pdf`
 
+Three-cohort feature plots: `outputs/figures/GSE183904_KCNQ1_KCNE3_KCNQ2_three_cohort_tsne.pdf`
+
 Main table: `outputs/tables/KCN_direction_stability.tsv`

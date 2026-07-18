@@ -79,6 +79,20 @@ All 10 eligible patients in the orthogonal-strict cohort show higher intestinal 
 
 The evidence is therefore insufficient to describe `KCNE2` as robustly associated with the intestinal state in this dataset.
 
+## Why clusters 2 and 5 can be CNV-low
+
+Clusters 2 and 5 carry the strongest diffuse/EMT transcriptional program in the final object. Their low inferCNV score does not by itself demonstrate that they are non-malignant.
+
+Both clusters have good transcriptomic depth, with median values of approximately 12,500 to 15,300 raw UMI and about 3,000 detected genes per cell. They also show strong `KRT8`, `KRT18` and `KRT19` expression, 100% tumor-program support, and high median tumor-program deltas of 2.29 and 1.98. Low sequencing depth is therefore not a sufficient explanation for their weak inferred-CNV signal.
+
+A biological explanation is also plausible. The TCGA gastric cancer classification identified a genomically stable subtype with fewer extensive somatic copy-number alterations. Diffuse histology was strongly enriched in this group: 40 of 55 genomically stable tumors, or 73%, were diffuse. This does not mean that 73% of all diffuse tumors were genomically stable. Genomically stable gastric cancers can instead carry alterations involving `CDH1`, `RHOA`, or `CLDN18-ARHGAP` fusions without the extensive aneuploidy typical of the chromosomal-instability subtype. Source: [TCGA Research Network, Nature 2014](https://doi.org/10.1038/nature13480).
+
+inferCNV is based on coordinated gene-expression changes across genomic regions. It does not directly measure DNA and cannot identify every form of malignancy. In particular, a weak inferCNV signal can occur when tumor cells are driven by point mutations, small alterations, copy-neutral events, or mainly transcriptional and epigenetic programs such as EMT.
+
+`NGCII509`, the patient carrying clusters 2 and 5, has an intestinal Lauren diagnosis. These clusters should therefore be described as diffuse/EMT-like cell states within a histologically intestinal tumor. This is compatible with intratumoral transcriptional heterogeneity and should not be interpreted as a change in the patient's clinical Lauren classification.
+
+For these reasons, clusters 2 and 5 remain part of the main biological analysis. Their exclusion is used only as an extreme technical sensitivity check. A suitable description is: `CNV-low diffuse/EMT clusters with mesothelial-like features and strong tumor-program support`.
+
 ## Robustness assessment
 
 The main biological direction is robust for `KCNQ1` and `KCNE3` because it is supported by four complementary observations:
@@ -91,4 +105,3 @@ The main biological direction is robust for `KCNQ1` and `KCNE3` because it is su
 The reduction in odds ratios after screening shows that ambiguous low-KCN cells increased the original contrast. Therefore, the original effect size should not be interpreted literally. The defensible conclusion is that `KCNQ1` and `KCNE3` are preferentially retained or detected in intestinal-like malignant epithelial states, not that they are exclusive markers of those states.
 
 The strict analysis favors specificity and may remove genuine EMT tumor cells with weak CNV or reduced epithelial markers. It is therefore a sensitivity control rather than a replacement for the biologically heterogeneous main object.
-
