@@ -25,6 +25,8 @@ The three groups contain different numbers of cells. To make the comparison more
 - iterations: `500`
 - random seed: `12345`
 
+Downsampling balances the number of displayed cells, but does not make cells from the same patient independent. The pooled-cell tests are therefore exploratory only.
+
 ## Readouts
 
 The main readout is KCNQ1 detection rate:
@@ -37,7 +39,9 @@ Expression intensity among KCNQ1-positive cells is reported as a secondary reado
 ## Statistical tests
 
 - Detection rate: Fisher exact test on KCNQ1-positive versus KCNQ1-negative cells.
-- Expression among KCNQ1-positive cells: two-sided Mann-Whitney/Wilcoxon test on `log1p(CPM)`.
+- Normal versus tumor inference: exact paired Wilcoxon signed-rank test across the five patients with matched primary normal and primary tumor samples.
+- Intestinal versus diffuse inference: two-sided Mann-Whitney test on patient-level summaries (`14` intestinal and `6` diffuse patients).
+- Expression among KCNQ1-positive cells: exploratory two-sided Mann-Whitney test on `log1p(CP10K)`, where CP10K is the raw count divided by the cell library size and multiplied by `10,000`.
 - Multiple testing: Benjamini-Hochberg FDR across pairwise comparisons.
 
 ## Main result
@@ -56,7 +60,13 @@ Representative downsample:
 | Tumor intestinal patient | 3,368 | 370 | 10.99% |
 | Tumor diffuse patient | 3,368 | 262 | 7.78% |
 
-The detection difference is supported by Fisher exact tests. Expression intensity among KCNQ1-positive cells is less informative and more similar between normal and intestinal tumor cells.
+Pooled-cell Fisher tests support the displayed direction, but they are not the main inference because cells are nested within patients. The matched-patient and patient-level tests are the appropriate inferential results. Expression intensity among KCNQ1-positive cells is secondary and more similar between normal and intestinal tumor cells.
+
+## Matched-patient result
+
+Five patients have both a primary normal epithelial sample and a primary tumor sample. These pairs are tested with an exact paired Wilcoxon signed-rank test. The small number of pairs limits statistical power, so effect direction and paired differences are reported together with the p-value.
+
+KCNQ1 detection was higher in the normal sample for four of the five pairs. The median paired difference was `+6.89` percentage points, but the exact paired test was not significant (`p = 0.625`). Mean `log1p(CP10K)` showed the same direction in four pairs and was also not significant (`p = 0.3125`).
 
 ## Outputs
 
@@ -64,6 +74,9 @@ The detection difference is supported by Fisher exact tests. Expression intensit
 - `outputs/final/kcnq1_lauren_downsampled/KCNQ1_lauren_downsampled_analysis.xlsx`
 - `outputs/final/kcnq1_lauren_downsampled/KCNQ1_lauren_downsampling_iteration_summary.tsv`
 - `outputs/final/kcnq1_lauren_downsampled/KCNQ1_lauren_downsampled_representative_tests.tsv`
+- `outputs/final/kcnq1_primary_normal_vs_tumor/kcnq1_matched_normal_tumor_pairs.tsv`
+- `outputs/final/kcnq1_primary_normal_vs_tumor/kcnq1_matched_normal_tumor_paired_tests.tsv`
+- `outputs/final/kcnq1_primary_normal_vs_tumor/kcnq1_tumor_lauren_patient_tests.tsv`
 
 ## Script
 

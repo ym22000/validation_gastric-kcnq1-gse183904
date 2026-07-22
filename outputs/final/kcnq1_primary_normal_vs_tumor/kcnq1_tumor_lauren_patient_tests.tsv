@@ -1,0 +1,3 @@
+comparison	metric	test	n_intestinal_patients	n_diffuse_patients	p_value	median_intestinal	median_diffuse
+Tumor intestinal patients vs tumor diffuse patients	KCNQ1 detection percentage	Two-sided Mann-Whitney U	14	6	0.5466460268317854	6.776355880560635	6.325069483046137
+Tumor intestinal patients vs tumor diffuse patients	Mean KCNQ1 log1p(CP10K)	Two-sided Mann-Whitney U	14	6	0.49396284829721365	0.06019087104575409	0.04601406633678844

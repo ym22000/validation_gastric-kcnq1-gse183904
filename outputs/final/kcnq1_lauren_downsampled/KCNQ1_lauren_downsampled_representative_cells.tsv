@@ -1,4 +1,4 @@
-cell_id	barcode	sample_id	gsm	patient	tissue	lauren	total_counts	n_features	comparison_group	analysis	raw_count	detected	log1p_cpm
+cell_id	barcode	sample_id	gsm	patient	tissue	lauren	total_counts	n_features	comparison_group	analysis	raw_count	detected	log1p_cp10k
 sample25_TTAGGCACAAACCTAC_1	TTAGGCACAAACCTAC_1	sample25	GSM5573490	NGCII512	Primary_Normal	Intestinal	3140	1433	Primary normal epithelial	Normal epithelial vs tumor patients by Lauren type	0	False	0.0
 sample23_CGGACGTCAGACACTT_6	CGGACGTCAGACACTT_6	sample23	GSM5573488	NGCII514	Primary_Normal	Diffuse	4372	1604	Primary normal epithelial	Normal epithelial vs tumor patients by Lauren type	0	False	0.0
 sample25_GGTGTTACAGATTGCT_1	GGTGTTACAGATTGCT_1	sample25	GSM5573490	NGCII512	Primary_Normal	Intestinal	7591	2047	Primary normal epithelial	Normal epithelial vs tumor patients by Lauren type	0	False	0.0

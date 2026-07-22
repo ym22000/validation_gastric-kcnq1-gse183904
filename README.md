@@ -55,7 +55,7 @@ A second, simpler analysis was added for KCNQ1 only. It follows the Lauren diagn
 - intestinal-type primary tumors
 - diffuse-type primary tumors
 
-Because the groups have different cell numbers, the comparison was repeated after random downsampling to `3,368` cells per group. The main readout is detection rate, defined as the fraction of cells with raw KCNQ1 count `> 0`.
+Because the groups have different cell numbers, the comparison was repeated after random downsampling to `3,368` cells per group. The main readout is detection rate, defined as the fraction of cells with raw KCNQ1 count `> 0`. Downsampling is used for descriptive balance only. Normal versus tumor inference uses an exact paired Wilcoxon test across the five matched patients, while intestinal versus diffuse tumors are compared from patient-level summaries.
 
 This analysis supports the expected direction:
 

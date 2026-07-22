@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from matplotlib.backends.backend_pdf import PdfPages
-from scipy.stats import fisher_exact, mannwhitneyu
+from scipy.stats import fisher_exact, mannwhitneyu, wilcoxon
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -139,7 +139,7 @@ def attach_expression(cells: pd.DataFrame, counts: pd.DataFrame) -> pd.DataFrame
     out = cells.merge(counts, on=["sample_id", "barcode"], how="left")
     out["raw_count"] = out["raw_count"].fillna(0).astype(int)
     out["detected"] = out["raw_count"] > 0
-    out["log1p_cpm"] = np.log1p((out["raw_count"] / out["total_counts"].clip(lower=1)) * 10000)
+    out["log1p_cp10k"] = np.log1p((out["raw_count"] / out["total_counts"].clip(lower=1)) * 10000)
     return out
 
 
@@ -158,9 +158,9 @@ def summarize_group(df: pd.DataFrame) -> pd.DataFrame:
                 "detection_pct": 100 * positive / total if total else np.nan,
                 "raw_transcripts_total": int(sub["raw_count"].sum()),
                 "mean_raw_per_cell": sub["raw_count"].mean(),
-                "mean_log1p_cpm": sub["log1p_cpm"].mean(),
+                "mean_log1p_cp10k": sub["log1p_cp10k"].mean(),
                 "mean_raw_among_detected": pos_sub["raw_count"].mean() if len(pos_sub) else 0,
-                "mean_log1p_cpm_among_detected": pos_sub["log1p_cpm"].mean() if len(pos_sub) else 0,
+                "mean_log1p_cp10k_among_detected": pos_sub["log1p_cp10k"].mean() if len(pos_sub) else 0,
             }
         )
     return pd.DataFrame(rows)
@@ -178,7 +178,7 @@ def summarize_patient(df: pd.DataFrame) -> pd.DataFrame:
                 "detection_pct": 100 * sub["detected"].mean(),
                 "raw_transcripts_total": int(sub["raw_count"].sum()),
                 "mean_raw_per_cell": sub["raw_count"].mean(),
-                "mean_log1p_cpm": sub["log1p_cpm"].mean(),
+                "mean_log1p_cp10k": sub["log1p_cp10k"].mean(),
             }
         )
     return pd.DataFrame(rows)
@@ -195,58 +195,149 @@ def pairwise_tests(df: pd.DataFrame, group_order: list[str]) -> pd.DataFrame:
                 [int(b["detected"].sum()), int((~b["detected"]).sum())],
             ]
             _, fisher_p = fisher_exact(table)
-            wilcox_p = mannwhitneyu(a["log1p_cpm"], b["log1p_cpm"], alternative="two-sided").pvalue
+            wilcox_p = mannwhitneyu(a["log1p_cp10k"], b["log1p_cp10k"], alternative="two-sided").pvalue
             rows.append(
                 {
                     "comparison": f"{g1} vs {g2}",
                     "group_1": g1,
                     "group_2": g2,
                     "fisher_p_detection": fisher_p,
-                    "wilcoxon_p_log1p_cpm": wilcox_p,
+                    "wilcoxon_p_log1p_cp10k": wilcox_p,
                     "group_1_detection_pct": 100 * a["detected"].mean(),
                     "group_2_detection_pct": 100 * b["detected"].mean(),
-                    "group_1_mean_log1p_cpm": a["log1p_cpm"].mean(),
-                    "group_2_mean_log1p_cpm": b["log1p_cpm"].mean(),
+                    "group_1_mean_log1p_cp10k": a["log1p_cp10k"].mean(),
+                    "group_2_mean_log1p_cp10k": b["log1p_cp10k"].mean(),
                 }
             )
     out = pd.DataFrame(rows)
     out["fisher_fdr_detection"] = bh_adjust(out["fisher_p_detection"].tolist())
-    out["wilcoxon_fdr_log1p_cpm"] = bh_adjust(out["wilcoxon_p_log1p_cpm"].tolist())
+    out["wilcoxon_fdr_log1p_cp10k"] = bh_adjust(out["wilcoxon_p_log1p_cp10k"].tolist())
     return out
 
 
-def patient_level_tests(patient_df: pd.DataFrame, group_order: list[str]) -> pd.DataFrame:
-    rows = []
-    for i, g1 in enumerate(group_order):
-        for g2 in group_order[i + 1 :]:
-            a = patient_df.loc[patient_df["group"] == g1]
-            b = patient_df.loc[patient_df["group"] == g2]
-            rows.append(
-                {
-                    "comparison": f"{g1} vs {g2}",
-                    "group_1": g1,
-                    "group_2": g2,
-                    "n_patients_group_1": len(a),
-                    "n_patients_group_2": len(b),
-                    "mannwhitney_p_detection_pct": mannwhitneyu(
-                        a["detection_pct"], b["detection_pct"], alternative="two-sided"
-                    ).pvalue,
-                    "mannwhitney_p_mean_log1p_cpm": mannwhitneyu(
-                        a["mean_log1p_cpm"], b["mean_log1p_cpm"], alternative="two-sided"
-                    ).pvalue,
-                    "median_detection_pct_group_1": a["detection_pct"].median(),
-                    "median_detection_pct_group_2": b["detection_pct"].median(),
-                    "median_mean_log1p_cpm_group_1": a["mean_log1p_cpm"].median(),
-                    "median_mean_log1p_cpm_group_2": b["mean_log1p_cpm"].median(),
-                }
-            )
-    out = pd.DataFrame(rows)
-    out["fdr_detection_pct"] = bh_adjust(out["mannwhitney_p_detection_pct"].tolist())
-    out["fdr_mean_log1p_cpm"] = bh_adjust(out["mannwhitney_p_mean_log1p_cpm"].tolist())
-    return out
+def build_matched_pairs(patient_df: pd.DataFrame) -> pd.DataFrame:
+    normal = patient_df.loc[patient_df["group"] == "Primary normal epithelial"].copy()
+    tumor = patient_df.loc[patient_df["group"].isin(["Tumor intestinal patient", "Tumor diffuse patient"])].copy()
+    pairs = normal.merge(tumor, on="patient", suffixes=("_normal", "_tumor"), validate="one_to_one")
+    pairs["lauren"] = pairs["group_tumor"].map(
+        {
+            "Tumor intestinal patient": "Intestinal",
+            "Tumor diffuse patient": "Diffuse",
+        }
+    )
+    pairs["detection_difference_normal_minus_tumor"] = (
+        pairs["detection_pct_normal"] - pairs["detection_pct_tumor"]
+    )
+    pairs["mean_log1p_cp10k_difference_normal_minus_tumor"] = (
+        pairs["mean_log1p_cp10k_normal"] - pairs["mean_log1p_cp10k_tumor"]
+    )
+    return pairs[
+        [
+            "patient",
+            "lauren",
+            "n_cells_normal",
+            "n_cells_tumor",
+            "detection_pct_normal",
+            "detection_pct_tumor",
+            "detection_difference_normal_minus_tumor",
+            "mean_log1p_cp10k_normal",
+            "mean_log1p_cp10k_tumor",
+            "mean_log1p_cp10k_difference_normal_minus_tumor",
+        ]
+    ].sort_values("patient")
 
 
-def plot_analysis(df: pd.DataFrame, group_order: list[str], title: str, pdf: PdfPages) -> None:
+def paired_normal_tumor_test(pairs: pd.DataFrame) -> pd.DataFrame:
+    detection_test = wilcoxon(
+        pairs["detection_pct_normal"],
+        pairs["detection_pct_tumor"],
+        alternative="two-sided",
+        method="exact",
+    )
+    expression_test = wilcoxon(
+        pairs["mean_log1p_cp10k_normal"],
+        pairs["mean_log1p_cp10k_tumor"],
+        alternative="two-sided",
+        method="exact",
+    )
+    return pd.DataFrame(
+        [
+            {
+                "comparison": "Matched primary normal epithelial vs primary tumor epithelial",
+                "metric": "KCNQ1 detection percentage",
+                "test": "Exact paired Wilcoxon signed-rank",
+                "n_pairs": len(pairs),
+                "statistic": detection_test.statistic,
+                "p_value": detection_test.pvalue,
+                "median_normal": pairs["detection_pct_normal"].median(),
+                "median_tumor": pairs["detection_pct_tumor"].median(),
+                "median_paired_difference_normal_minus_tumor": pairs[
+                    "detection_difference_normal_minus_tumor"
+                ].median(),
+                "pairs_with_normal_higher": int((pairs["detection_difference_normal_minus_tumor"] > 0).sum()),
+            },
+            {
+                "comparison": "Matched primary normal epithelial vs primary tumor epithelial",
+                "metric": "Mean KCNQ1 log1p(CP10K)",
+                "test": "Exact paired Wilcoxon signed-rank",
+                "n_pairs": len(pairs),
+                "statistic": expression_test.statistic,
+                "p_value": expression_test.pvalue,
+                "median_normal": pairs["mean_log1p_cp10k_normal"].median(),
+                "median_tumor": pairs["mean_log1p_cp10k_tumor"].median(),
+                "median_paired_difference_normal_minus_tumor": pairs[
+                    "mean_log1p_cp10k_difference_normal_minus_tumor"
+                ].median(),
+                "pairs_with_normal_higher": int(
+                    (pairs["mean_log1p_cp10k_difference_normal_minus_tumor"] > 0).sum()
+                ),
+            },
+        ]
+    )
+
+
+def tumor_lauren_patient_test(patient_df: pd.DataFrame) -> pd.DataFrame:
+    intestinal = patient_df.loc[patient_df["group"] == "Tumor intestinal patient"]
+    diffuse = patient_df.loc[patient_df["group"] == "Tumor diffuse patient"]
+    return pd.DataFrame(
+        [
+            {
+                "comparison": "Tumor intestinal patients vs tumor diffuse patients",
+                "metric": "KCNQ1 detection percentage",
+                "test": "Two-sided Mann-Whitney U",
+                "n_intestinal_patients": len(intestinal),
+                "n_diffuse_patients": len(diffuse),
+                "p_value": mannwhitneyu(
+                    intestinal["detection_pct"], diffuse["detection_pct"], alternative="two-sided"
+                ).pvalue,
+                "median_intestinal": intestinal["detection_pct"].median(),
+                "median_diffuse": diffuse["detection_pct"].median(),
+            },
+            {
+                "comparison": "Tumor intestinal patients vs tumor diffuse patients",
+                "metric": "Mean KCNQ1 log1p(CP10K)",
+                "test": "Two-sided Mann-Whitney U",
+                "n_intestinal_patients": len(intestinal),
+                "n_diffuse_patients": len(diffuse),
+                "p_value": mannwhitneyu(
+                    intestinal["mean_log1p_cp10k"],
+                    diffuse["mean_log1p_cp10k"],
+                    alternative="two-sided",
+                ).pvalue,
+                "median_intestinal": intestinal["mean_log1p_cp10k"].median(),
+                "median_diffuse": diffuse["mean_log1p_cp10k"].median(),
+            },
+        ]
+    )
+
+
+def plot_analysis(
+    df: pd.DataFrame,
+    group_order: list[str],
+    title: str,
+    matched_pairs: pd.DataFrame,
+    pdf: PdfPages,
+) -> None:
     labels = {
         "Primary normal epithelial": "Primary normal\nepithelial",
         "Tumor intestinal-like": "Tumor\nintestinal-like",
@@ -267,14 +358,14 @@ def plot_analysis(df: pd.DataFrame, group_order: list[str], title: str, pdf: Pdf
     axes[0].set_title("Detection rate")
     axes[0].set_ylim(0, max(5, summary["detection_pct"].max() * 1.25))
 
-    axes[1].bar(x_labels, summary["mean_log1p_cpm"], color=palette, edgecolor="black", linewidth=0.4)
-    axes[1].set_ylabel("Mean log1p(CPM)")
+    axes[1].bar(x_labels, summary["mean_log1p_cp10k"], color=palette, edgecolor="black", linewidth=0.4)
+    axes[1].set_ylabel("Mean log1p(CP10K)")
     axes[1].set_title("Mean normalized expression")
 
     sns.violinplot(
         data=df,
         x="comparison_group",
-        y="log1p_cpm",
+        y="log1p_cp10k",
         order=group_order,
         palette=palette,
         cut=0,
@@ -285,7 +376,7 @@ def plot_analysis(df: pd.DataFrame, group_order: list[str], title: str, pdf: Pdf
     sns.boxplot(
         data=df,
         x="comparison_group",
-        y="log1p_cpm",
+        y="log1p_cp10k",
         order=group_order,
         width=0.18,
         showcaps=False,
@@ -297,7 +388,7 @@ def plot_analysis(df: pd.DataFrame, group_order: list[str], title: str, pdf: Pdf
     )
     axes[2].set_xticklabels(x_labels)
     axes[2].set_xlabel("")
-    axes[2].set_ylabel("log1p(CPM)")
+    axes[2].set_ylabel("log1p(CP10K)")
     axes[2].set_title("Cell-level distribution")
 
     fig.suptitle(title, fontsize=14, fontweight="bold")
@@ -337,7 +428,7 @@ def plot_analysis(df: pd.DataFrame, group_order: list[str], title: str, pdf: Pdf
     sns.stripplot(
         data=patient_df,
         x="group",
-        y="mean_log1p_cpm",
+        y="mean_log1p_cp10k",
         order=group_order,
         palette=palette,
         size=6,
@@ -349,7 +440,7 @@ def plot_analysis(df: pd.DataFrame, group_order: list[str], title: str, pdf: Pdf
     sns.boxplot(
         data=patient_df,
         x="group",
-        y="mean_log1p_cpm",
+        y="mean_log1p_cp10k",
         order=group_order,
         color="white",
         width=0.35,
@@ -358,9 +449,53 @@ def plot_analysis(df: pd.DataFrame, group_order: list[str], title: str, pdf: Pdf
     )
     axes[1].set_xticklabels(x_labels)
     axes[1].set_xlabel("")
-    axes[1].set_ylabel("Patient-level mean log1p(CPM)")
+    axes[1].set_ylabel("Patient-level mean log1p(CP10K)")
     axes[1].set_title("Mean expression by patient")
-    fig.suptitle(title + " - patient summaries", fontsize=14, fontweight="bold")
+    fig.suptitle("KCNQ1 patient-level summaries", fontsize=14, fontweight="bold")
+    fig.tight_layout()
+    pdf.savefig(fig)
+    plt.close(fig)
+
+    fig, axes = plt.subplots(1, 2, figsize=(9.5, 4.2))
+    for _, row in matched_pairs.iterrows():
+        color = COLORS[f"Tumor {row['lauren'].lower()} patient"]
+        axes[0].plot(
+            [0, 1],
+            [row["detection_pct_normal"], row["detection_pct_tumor"]],
+            color="#7a7a7a",
+            alpha=0.65,
+            linewidth=1,
+        )
+        axes[0].scatter(0, row["detection_pct_normal"], color=COLORS["Primary normal epithelial"], s=45)
+        axes[0].scatter(1, row["detection_pct_tumor"], color=color, s=45)
+        axes[1].plot(
+            [0, 1],
+            [row["mean_log1p_cp10k_normal"], row["mean_log1p_cp10k_tumor"]],
+            color="#7a7a7a",
+            alpha=0.65,
+            linewidth=1,
+        )
+        axes[1].scatter(0, row["mean_log1p_cp10k_normal"], color=COLORS["Primary normal epithelial"], s=45)
+        axes[1].scatter(1, row["mean_log1p_cp10k_tumor"], color=color, s=45)
+    for ax in axes:
+        ax.set_xticks([0, 1], ["Matched normal", "Primary tumor"])
+    axes[0].set_ylabel("KCNQ1+ cells (%)")
+    detection_p = wilcoxon(
+        matched_pairs["detection_pct_normal"],
+        matched_pairs["detection_pct_tumor"],
+        alternative="two-sided",
+        method="exact",
+    ).pvalue
+    expression_p = wilcoxon(
+        matched_pairs["mean_log1p_cp10k_normal"],
+        matched_pairs["mean_log1p_cp10k_tumor"],
+        alternative="two-sided",
+        method="exact",
+    ).pvalue
+    axes[0].set_title(f"Detection | paired Wilcoxon p = {detection_p:.3g}")
+    axes[1].set_ylabel("Mean log1p(CP10K)")
+    axes[1].set_title(f"Expression | paired Wilcoxon p = {expression_p:.3g}")
+    fig.suptitle("Five matched normal-tumor patient pairs", fontsize=13, fontweight="bold")
     fig.tight_layout()
     pdf.savefig(fig)
     plt.close(fig)
@@ -383,19 +518,25 @@ def main() -> None:
     lauren_summary = summarize_group(lauren_df)
     lauren_patient = summarize_patient(lauren_df)
     lauren_tests = pairwise_tests(lauren_df, lauren_order)
-    lauren_patient_tests = patient_level_tests(lauren_patient, lauren_order)
+    matched_pairs = build_matched_pairs(lauren_patient)
+    paired_tests = paired_normal_tumor_test(matched_pairs)
+    tumor_lauren_tests = tumor_lauren_patient_test(lauren_patient)
 
     lauren_df.to_csv(OUT_DIR / "kcnq1_primary_normal_vs_lauren_tumor_cell_level.tsv", sep="\t", index=False)
     lauren_summary.to_csv(OUT_DIR / "kcnq1_primary_normal_vs_lauren_tumor_summary.tsv", sep="\t", index=False)
     lauren_patient.to_csv(OUT_DIR / "kcnq1_primary_normal_vs_lauren_tumor_by_patient.tsv", sep="\t", index=False)
     lauren_tests.to_csv(OUT_DIR / "kcnq1_primary_normal_vs_lauren_tumor_tests.tsv", sep="\t", index=False)
-    lauren_patient_tests.to_csv(OUT_DIR / "kcnq1_primary_normal_vs_lauren_tumor_patient_tests.tsv", sep="\t", index=False)
+    matched_pairs.to_csv(OUT_DIR / "kcnq1_matched_normal_tumor_pairs.tsv", sep="\t", index=False)
+    paired_tests.to_csv(OUT_DIR / "kcnq1_matched_normal_tumor_paired_tests.tsv", sep="\t", index=False)
+    tumor_lauren_tests.to_csv(OUT_DIR / "kcnq1_tumor_lauren_patient_tests.tsv", sep="\t", index=False)
 
     with pd.ExcelWriter(OUT_DIR / "KCNQ1_primary_normal_vs_tumor_comparison.xlsx", engine="xlsxwriter") as writer:
         lauren_summary.to_excel(writer, sheet_name="Lauren_summary", index=False)
         lauren_tests.to_excel(writer, sheet_name="Lauren_cell_tests", index=False)
         lauren_patient.to_excel(writer, sheet_name="Lauren_patient", index=False)
-        lauren_patient_tests.to_excel(writer, sheet_name="Lauren_patient_tests", index=False)
+        matched_pairs.to_excel(writer, sheet_name="Matched_pairs", index=False)
+        paired_tests.to_excel(writer, sheet_name="Paired_normal_tumor", index=False)
+        tumor_lauren_tests.to_excel(writer, sheet_name="Lauren_patient_test", index=False)
 
     pdf_path = OUT_DIR / "KCNQ1_primary_normal_vs_tumor_comparison.pdf"
     with PdfPages(pdf_path) as pdf:
@@ -403,6 +544,7 @@ def main() -> None:
             lauren_df,
             lauren_order,
             "KCNQ1 expression: primary normal epithelial vs tumor samples by Lauren type",
+            matched_pairs,
             pdf,
         )
 
@@ -410,6 +552,10 @@ def main() -> None:
     print("Wrote", OUT_DIR / "KCNQ1_primary_normal_vs_tumor_comparison.xlsx")
     print("\nLauren sample-level summary")
     print(lauren_summary.to_string(index=False))
+    print("\nMatched normal-tumor paired tests")
+    print(paired_tests.to_string(index=False))
+    print("\nIntestinal-vs-diffuse patient-level tests")
+    print(tumor_lauren_tests.to_string(index=False))
 
 
 if __name__ == "__main__":

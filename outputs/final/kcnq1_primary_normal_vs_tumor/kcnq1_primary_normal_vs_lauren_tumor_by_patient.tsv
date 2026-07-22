@@ -1,4 +1,4 @@
-group	patient	n_cells	detected_cells	detection_pct	raw_transcripts_total	mean_raw_per_cell	mean_log1p_cpm
+group	patient	n_cells	detected_cells	detection_pct	raw_transcripts_total	mean_raw_per_cell	mean_log1p_cp10k
 Primary normal epithelial	NGCII520	847	54	6.375442739079102	71	0.08382526564344746	0.04721025190415932
 Primary normal epithelial	NGCII521	422	100	23.696682464454977	148	0.35071090047393366	0.1776195914043478
 Primary normal epithelial	NGCII513	780	128	16.41025641025641	162	0.2076923076923077	0.09806051178761992

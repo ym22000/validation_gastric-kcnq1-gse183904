@@ -1,4 +1,4 @@
-group	n_cells	n_patients	detected_cells	detection_pct	raw_transcripts_total	mean_raw_per_cell	mean_log1p_cpm_all_cells	n_kcnq1_positive	mean_raw_among_kcnq1_positive	median_raw_among_kcnq1_positive	mean_log1p_cpm_among_kcnq1_positive	median_log1p_cpm_among_kcnq1_positive
+group	n_cells	n_patients	detected_cells	detection_pct	raw_transcripts_total	mean_raw_per_cell	mean_log1p_cp10k_all_cells	n_kcnq1_positive	mean_raw_among_kcnq1_positive	median_raw_among_kcnq1_positive	mean_log1p_cp10k_among_kcnq1_positive	median_log1p_cp10k_among_kcnq1_positive
 Primary normal epithelial	5029	5	716	14.237422946907936	1288	0.2561145356929807	0.10491670120351158	716	1.7988826815642458	1.0	0.7369079474196367	0.5835762790860497
 Tumor diffuse patient	3368	6	262	7.779097387173397	327	0.09709026128266034	0.05332851898211106	262	1.248091603053435	1.0	0.6855360760753819	0.4973203465165874
 Tumor intestinal patient	20448	14	2259	11.047535211267606	3300	0.1613849765258216	0.08110871984643565	2259	1.4608233731739708	1.0	0.734179328649808	0.5841828664180952

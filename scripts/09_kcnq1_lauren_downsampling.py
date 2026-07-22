@@ -60,12 +60,12 @@ def summarize_cells(df):
                 "detection_pct": 100 * sub["detected"].mean(),
                 "raw_transcripts_total": int(sub["raw_count"].sum()),
                 "mean_raw_per_cell": sub["raw_count"].mean(),
-                "mean_log1p_cpm_all_cells": sub["log1p_cpm"].mean(),
+                "mean_log1p_cp10k_all_cells": sub["log1p_cp10k"].mean(),
                 "n_kcnq1_positive": len(positive),
                 "mean_raw_among_kcnq1_positive": positive["raw_count"].mean() if len(positive) else 0,
                 "median_raw_among_kcnq1_positive": positive["raw_count"].median() if len(positive) else 0,
-                "mean_log1p_cpm_among_kcnq1_positive": positive["log1p_cpm"].mean() if len(positive) else 0,
-                "median_log1p_cpm_among_kcnq1_positive": positive["log1p_cpm"].median() if len(positive) else 0,
+                "mean_log1p_cp10k_among_kcnq1_positive": positive["log1p_cp10k"].mean() if len(positive) else 0,
+                "median_log1p_cp10k_among_kcnq1_positive": positive["log1p_cp10k"].median() if len(positive) else 0,
             }
         )
     return pd.DataFrame(rows)
@@ -88,7 +88,7 @@ def pairwise_tests(df):
             wilcox_positive_p = np.nan
             if len(a_pos) > 0 and len(b_pos) > 0:
                 wilcox_positive_p = mannwhitneyu(
-                    a_pos["log1p_cpm"], b_pos["log1p_cpm"], alternative="two-sided"
+                    a_pos["log1p_cp10k"], b_pos["log1p_cp10k"], alternative="two-sided"
                 ).pvalue
             rows.append(
                 {
@@ -99,8 +99,8 @@ def pairwise_tests(df):
                     "wilcoxon_p_expression_among_kcnq1_positive": wilcox_positive_p,
                     "group_1_detection_pct": 100 * a["detected"].mean(),
                     "group_2_detection_pct": 100 * b["detected"].mean(),
-                    "group_1_mean_log1p_cpm_among_positive": a_pos["log1p_cpm"].mean(),
-                    "group_2_mean_log1p_cpm_among_positive": b_pos["log1p_cpm"].mean(),
+                    "group_1_mean_log1p_cp10k_among_positive": a_pos["log1p_cp10k"].mean(),
+                    "group_2_mean_log1p_cp10k_among_positive": b_pos["log1p_cp10k"].mean(),
                 }
             )
     out = pd.DataFrame(rows)
@@ -132,10 +132,10 @@ def run_iterations(df, n_per_group):
                     "n_cells": len(sub),
                     "detected_cells": int(sub["detected"].sum()),
                     "detection_pct": 100 * sub["detected"].mean(),
-                    "mean_log1p_cpm_all_cells": sub["log1p_cpm"].mean(),
+                    "mean_log1p_cp10k_all_cells": sub["log1p_cp10k"].mean(),
                     "n_kcnq1_positive": len(positive),
-                    "mean_log1p_cpm_among_kcnq1_positive": positive["log1p_cpm"].mean() if len(positive) else 0,
-                    "median_log1p_cpm_among_kcnq1_positive": positive["log1p_cpm"].median() if len(positive) else 0,
+                    "mean_log1p_cp10k_among_kcnq1_positive": positive["log1p_cp10k"].mean() if len(positive) else 0,
+                    "median_log1p_cp10k_among_kcnq1_positive": positive["log1p_cp10k"].median() if len(positive) else 0,
                 }
             )
     return pd.DataFrame(rows)
@@ -144,10 +144,10 @@ def run_iterations(df, n_per_group):
 def summarize_iterations(iter_df):
     metrics = [
         "detection_pct",
-        "mean_log1p_cpm_all_cells",
+        "mean_log1p_cp10k_all_cells",
         "n_kcnq1_positive",
-        "mean_log1p_cpm_among_kcnq1_positive",
-        "median_log1p_cpm_among_kcnq1_positive",
+        "mean_log1p_cp10k_among_kcnq1_positive",
+        "median_log1p_cp10k_among_kcnq1_positive",
     ]
     rows = []
     for group, sub in iter_df.groupby("group", sort=False):
@@ -184,7 +184,7 @@ def plot_pdf(full_df, representative_df, iter_df, iter_summary, pdf_path):
         sns.violinplot(
             data=representative_df.loc[representative_df["detected"]],
             x="comparison_group",
-            y="log1p_cpm",
+            y="log1p_cp10k",
             order=GROUP_ORDER,
             palette=palette,
             cut=0,
@@ -195,7 +195,7 @@ def plot_pdf(full_df, representative_df, iter_df, iter_summary, pdf_path):
         sns.boxplot(
             data=representative_df.loc[representative_df["detected"]],
             x="comparison_group",
-            y="log1p_cpm",
+            y="log1p_cp10k",
             order=GROUP_ORDER,
             width=0.18,
             showfliers=False,
@@ -206,7 +206,7 @@ def plot_pdf(full_df, representative_df, iter_df, iter_summary, pdf_path):
         )
         axes[1].set_xticklabels(labels)
         axes[1].set_xlabel("")
-        axes[1].set_ylabel("log1p(CPM), KCNQ1+ cells only")
+        axes[1].set_ylabel("log1p(CP10K), KCNQ1+ cells only")
         axes[1].set_title("Expression among KCNQ1+ cells")
 
         sns.boxplot(
@@ -232,7 +232,7 @@ def plot_pdf(full_df, representative_df, iter_df, iter_summary, pdf_path):
         sns.boxplot(
             data=plot_data,
             x="group",
-            y="mean_log1p_cpm_among_kcnq1_positive",
+            y="mean_log1p_cp10k_among_kcnq1_positive",
             order=GROUP_ORDER,
             palette=palette,
             showfliers=False,
@@ -240,7 +240,7 @@ def plot_pdf(full_df, representative_df, iter_df, iter_summary, pdf_path):
         )
         ax.set_xticklabels(labels)
         ax.set_xlabel("")
-        ax.set_ylabel("Mean log1p(CPM), KCNQ1+ cells only")
+        ax.set_ylabel("Mean log1p(CP10K), KCNQ1+ cells only")
         ax.set_title("Expression among KCNQ1+ cells across downsampling runs")
         fig.tight_layout()
         pdf.savefig(fig)
@@ -288,8 +288,8 @@ def main():
                     f"Random downsampling to {n_per_group} cells per group, matching the smallest group",
                     N_ITER,
                     SEED,
-                    "Wilcoxon/Mann-Whitney on log1p(CPM), KCNQ1-positive cells only",
-                    "Fisher exact test on KCNQ1-positive versus KCNQ1-negative cells",
+                    "Exploratory Wilcoxon/Mann-Whitney on log1p(CP10K), KCNQ1-positive cells only",
+                    "Exploratory Fisher exact test on pooled KCNQ1-positive versus KCNQ1-negative cells",
                 ],
             }
         ).to_excel(writer, sheet_name="README", index=False)

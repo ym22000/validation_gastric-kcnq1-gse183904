@@ -14,8 +14,10 @@ This folder contains the final Lauren-level KCNQ1 comparison.
 - `500` random iterations.
 - Seed: `12345`.
 - Main metric: KCNQ1 detection rate, defined as raw count `> 0`.
-- Main test: Fisher exact test on detected versus non-detected cells.
-- Secondary metric: expression among KCNQ1-positive cells only, using `log1p(CPM)`.
+- The pooled-cell Fisher test is exploratory because cells from one patient are not independent replicates.
+- The main normal-versus-tumor inference is an exact paired Wilcoxon test across the five matched patients.
+- Intestinal-versus-diffuse inference uses a patient-level Mann-Whitney test.
+- Secondary metric: expression among KCNQ1-positive cells only, using `log1p(CP10K)`.
 
 ## Files
 
